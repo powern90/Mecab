@@ -77,9 +77,10 @@ mecab-ko의 라이센스는 MeCab의 라이센스를 그대로 따릅니다.
 
 # 수정사항
 숫자 2자리 + 세가 나오면 하나의 형탯소로 인식하도록 수정
-  :::text
-  # src/writer.cpp
-  # .....
-  # 119 line
-  # Writer::writeLettice함수 수정
-  # .....
+
+    :::text
+    # src/writer.cpp
+    # .....
+    # 119 line
+    # Writer::writeLettice함수 수정
+    # .....
