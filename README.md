@@ -74,3 +74,12 @@ MeCab의 사전 설정(dicrc)에서 다음과 같이 설정합니다.
 mecab-ko의 라이센스는 MeCab의 라이센스를 그대로 따릅니다.
 
 > MeCab 는 무료 소프트웨어입니다. GPL (the GNU General Public License), LGPL (Lesser GNU General Public License) 또는 BSD 라이선스에 따라 소프트웨어를 사용, 재배포할 수 있습니다. 자세한 내용은 COPYING, GPL, LGPL, BSD 각 파일을 참조하십시오.
+
+# 수정사항
+숫자 2자리 + 세가 나오면 하나의 형탯소로 인식하도록 수정
+  :::text
+  # src/writer.cpp
+  # .....
+  # 119 line
+  # Writer::writeLettice함수 수정
+  # .....
